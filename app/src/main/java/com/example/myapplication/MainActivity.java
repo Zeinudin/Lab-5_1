@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.unnamed);
+        Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable._0f44f24_2895_4dee_9c0c_afbaefd7d32f);
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
         bmp.compress(Bitmap.CompressFormat.PNG, 100, stream);
         byteArray = stream.toByteArray();
